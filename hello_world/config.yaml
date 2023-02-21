@@ -11,6 +11,3 @@ arch:
   - i386
 url: https://github.com/michaelhashimoto/hello-world/tree/main/hello_world
 homeassistant: 0.115.0
-boot: manual
-init: false
-image: ghcr.io/home-assistant/{arch}-base:3.16
