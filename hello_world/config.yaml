@@ -1,6 +1,6 @@
 name: "Hello world"
 description: "My first real add-on!"
-version: "1.0.0"
+version: "1.1.0"
 slug: "hello_world"
 init: false
 arch:
@@ -11,3 +11,6 @@ arch:
   - i386
 url: https://github.com/michaelhashimoto/hello-world/tree/main/hello_world
 homeassistant: 0.115.0
+startup: before
+ports:
+  8000/tcp: 8000
